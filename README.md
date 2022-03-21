@@ -1,1 +1,1 @@
-[singolo](http://testmaxkr.github.io/videoCatalog/)
+[VideoCatalog](http://testmaxkr.github.io/videoCatalog/)
