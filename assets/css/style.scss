@@ -1,0 +1,22 @@
+body{
+    box-sizing:border-box;
+}
+
+.header{
+
+& a,a:hover{
+    color: #f0ad4e;
+    text-decoration: none;
+}
+
+& h1{
+    letter-spacing: 15px;
+    font-size: 300%;
+}
+& p{
+    color: white !important;
+    font-size: 90%;
+    letter-spacing: 3px;
+
+}
+}
