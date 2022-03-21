@@ -3,6 +3,25 @@ body {
           box-sizing: border-box;
 }
 
+body .nav-pills > li.active > a,
+body .nav-pills > li.active > a:focus,
+body .nav-pills > li.active > a:hover {
+  color: red;
+  background-color: #346270;
+}
+
+body .nav-pills > li > a {
+  color: white;
+}
+
+body .nav-pills > li > a:hover {
+  background-color: #346270;
+}
+
+body .navbar-inverse {
+  padding: 1%;
+}
+
 .header a, .header a:hover {
   color: #f0ad4e;
   text-decoration: none;

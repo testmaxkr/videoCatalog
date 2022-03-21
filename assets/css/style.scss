@@ -1,9 +1,28 @@
 body{
     box-sizing:border-box;
+    
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover{
+    color: red;
+    background-color: #346270;
+}    
+    
+.nav-pills>li>a{
+    color: white;
+} 
+.nav-pills>li>a:hover{
+    background-color: #346270;
+}
+
+.navbar-inverse {
+    padding: 1%;
+}
+
+
 }
 
 .header{
-
 & a,a:hover{
     color: #f0ad4e;
     text-decoration: none;
@@ -13,10 +32,11 @@ body{
     letter-spacing: 15px;
     font-size: 300%;
 }
+
 & p{
     color: white !important;
     font-size: 90%;
     letter-spacing: 3px;
+}
+}
 
-}
-}
