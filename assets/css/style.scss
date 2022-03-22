@@ -1,43 +1,66 @@
+html, body {
+    height: 100%;
+}
+
 body{
     box-sizing:border-box;
-    
-.nav-pills>li.active>a,
-.nav-pills>li.active>a:focus,
-.nav-pills>li.active>a:hover{
-    color: red;
-    background-color: #346270;
-}    
-    
-.nav-pills>li>a{
-    color: white;
-} 
-.nav-pills>li>a:hover{
-    background-color: #346270;
-}
-
-.navbar-inverse {
-    padding: 1%;
-}
-
-
-}
-
+//  header   
 .header{
+
 & a,a:hover{
     color: #f0ad4e;
     text-decoration: none;
 }
-
 & h1{
     letter-spacing: 15px;
     font-size: 300%;
 }
-
 & p{
     color: white !important;
     font-size: 90%;
     letter-spacing: 3px;
 }
 }
- 
+// navigations    
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover{
+    color: red;
+    background-color: #346270;
+
+}       
+.nav-pills>li>a{
+    color: white;
+} 
+.nav-pills>li>a:hover{
+    background-color: #346270;
+}
+.navbar-inverse {
+    padding: 1%;
+}
+// main
+.clear{
+    clear: both;
+    height: 63px;
+}
+.wrapper{
+    min-height: 100%;
+}
+// footer
+footer{
+    color:#666;
+    background: #222;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid #000;
+
+}
+& a {
+    color: #999;
+}
+
+& a:hover{
+    color: #efefef;
+}
+}
+
 

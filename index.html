@@ -7,9 +7,10 @@
     <title>Bootstrap Kinomonstr</title>
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
 </head>
 <body>
-    <!-- universal container bootstrap -->
+    <!-- header container -->
     <div class="container-fluid">        
         <div class="row">
             <nav role="navigation" class="navbar navbar-inverse">
@@ -48,13 +49,22 @@
             </nav>       
         </div>
     </div>
-
-
-
-
-
-
-    
+    <!-- main container -->
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-lg-push-3" style="background-color: red;">ТРИ ТРИ ТРИ</div>
+                <div class="col-lg-3 col-lg-pull-9" style="background-color: blue;">ДЕВЯТЬ ДЕВЯТЬ</div>
+            </div>
+        </div>
+    <div class="clear"></div> <!-- разделитель -->
+    </div>
+    <!-- footer container -->
+    <footer>
+        <div class="container">
+            <p class="text-center"> <a href="#">KinoMonster.com</a> </p>
+        </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
 </body>
