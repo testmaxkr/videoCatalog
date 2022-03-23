@@ -5,6 +5,7 @@ html, body {
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  height: 100%;
 }
 
 body .header a, body .header a:hover {
@@ -49,6 +50,26 @@ body .clear {
 
 body .wrapper {
   min-height: 100%;
+}
+
+body .films_block {
+  text-align: center;
+}
+
+body .films_block img {
+  margin-bottom: 5%;
+  border-radius: 5px;
+  border: 5px solid #dad7d5;
+  width: 100%;
+}
+
+body .margin-8 {
+  margin-top: 8%;
+}
+
+body .film_label {
+  padding: 2%;
+  margin-bottom: 4%;
 }
 
 body footer {
