@@ -39,7 +39,7 @@ body{
 .navbar-inverse {
     padding: 1%;
 }
-// main
+// main right panel
 .clear{
     clear: both;
     height: 63px;
@@ -66,6 +66,30 @@ body{
     padding: 2%;
     margin-bottom: 4%;
 }
+
+//main left panel
+.panel{
+    border: none;
+.panel-heading {
+    background-color: #f0ad4e;
+    color: white;
+    border-color: transparent;
+.panel-body{
+    background-color: #f9f9f9;
+}
+.sidebar-header{
+    font-size: 120%;    
+    letter-spacing: 2px;
+}
+}
+}.form-control{
+    border-radius: 0px;
+    font-size: 14px;
+}
+.input-lg{
+    font-size: 14px;
+}
+
 // footer
 footer{
     color:#666;
@@ -73,13 +97,13 @@ footer{
     padding: 17px 0 18px 0;
     border-top: 1px solid #000;
 
-}
 & a {
     color: #999;
 }
 
 & a:hover{
     color: #efefef;
+}
 }
 }
 

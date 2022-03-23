@@ -72,6 +72,34 @@ body .film_label {
   margin-bottom: 4%;
 }
 
+body .panel {
+  border: none;
+}
+
+body .panel .panel-heading {
+  background-color: #f0ad4e;
+  color: white;
+  border-color: transparent;
+}
+
+body .panel .panel-heading .panel-body {
+  background-color: #f9f9f9;
+}
+
+body .panel .panel-heading .sidebar-header {
+  font-size: 120%;
+  letter-spacing: 2px;
+}
+
+body .form-control {
+  border-radius: 0px;
+  font-size: 14px;
+}
+
+body .input-lg {
+  font-size: 14px;
+}
+
 body footer {
   color: #666;
   background: #222;
@@ -79,11 +107,11 @@ body footer {
   border-top: 1px solid #000;
 }
 
-body a {
+body footer a {
   color: #999;
 }
 
-body a:hover {
+body footer a:hover {
   color: #efefef;
 }
 /*# sourceMappingURL=style.css.map */
