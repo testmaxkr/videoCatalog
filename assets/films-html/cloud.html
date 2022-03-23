@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap Kinomonstr</title>
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/media.css">
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/media.css">
 </head>
 <header>
     <!-- header container -->
@@ -29,7 +29,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
-                                <h1><a href="./index.html">КиноМонстр</a></h1>
+                                <h1><a href="/index.html">КиноМонстр</a></h1>
                                 <p>Кино - наша страсть!</p>
                             </div>
                         </div>
@@ -38,11 +38,11 @@
                     <!-- bottons header nav -->
                     <div id="navbarCollapse" class="collapse navbar-collapse navbar-right"> 
                         <ul class="nav nav-pills">
-                            <li class="active"><a href="./index.html">Главная</a></li>
+                            <li class="active"><a href="/index.html">Главная</a></li>
                             <li><a href="#">Фильмы</a></li>
                             <li><a href="#">Сериалы</a></li>
                             <li><a href="#">Рейтинг фильмов</a></li>
-                            <li><a href="./contact.html">Контакты</a></li>
+                            <li><a href="/contact.html">Контакты</a></li>
                         </ul>
                     </div>
                 </div>
@@ -62,69 +62,70 @@
                         <div class="form-group">
                             <div class="input-group">
                                 <input type="search" class="form-control input-lg" placeholder="Введите запрос"></input>
-                                    <div class="input-group-btn">
-                                        <button class="btn btn-default btn-lg" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-                                    </div>        
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default btn-lg" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                </div>        
                             </div>
                         </div>
                     </form>
-                    <!-- новые фильмы -->
-                    <h2>Новые фильмы</h2>
-                    <hr>
-                    <div class="row">
-                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <a href="./assets/films-html/interstellar.html"><img src="./assets/img/inter.png" alt="error img"></a>
-                            <div class="film_label"><a href="./assets/films-html/films-html/interstellar.html">Интерстеллар</a></div>
-                        </div>
-                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <a href="./assets/films-html/matrix.html"><img src="./assets/img/matrix.png" alt="error img"></a>
-                            <div class="film_label"><a href="./assets/films-html/matrix.html">Матрица</a></div>
-                        </div>
-                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <a href="./assets/films-html/cloud.html"><img src="./assets/img/cloud.png" alt="error img"></a>
-                            <div class="film_label"><a href="./assets/films-html/cloud.html">Облачный атлас</a></div>
-                        </div>
-                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <a href="./assets/films-html/max.html"><img src="./assets/img/max.png" alt="error img"></a>
-                            <div class="film_label"><a href="./assets/films-html/max.html">Безумный Макс</a></div>
-                        </div>
+                <!-- фильм -->
+                <h1>Облачный атлас</h1>
+                <hr>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/K2VtiZSvwuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                    <div class="well info-block text-center">
+                        Год: <span class="badge">2012</span>
+                        Рейтинг: <span class="badge">7.9</span>
+                        Режиссер: <span class="badge">Том Тиквер, Энди Вачовски, Лана Вачовски</span>
                     </div>
-                        <div class="margin-8"></div> <!-- разделитель для margin-top -->
-                    <!-- новые сериалы -->
-                    <h2>Новые сериалы</h2>
-                    <hr>
-                    <div class="row">
-                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <a href="#"><img src="./assets/img/xfiles.png" alt="error img"></a>
-                            <div class="film_label"><a href="#">Секретные материалы</a></div>
-                        </div>
-                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <a href="#"><img src="./assets/img/silicon.png" alt="error img"></a>
-                            <div class="film_label"><a href="#">Кремневая долина</a></div>
-                        </div>
-                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <a href="#"><img src="./assets/img/dead.png" alt="error img"></a>
-                            <div class="film_label"><a href="#">Ходячие мертвецы</a></div>
-                        </div>
-                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <a href="#"><img src="./assets/img/breakingbad.png" alt="error img"></a>
-                            <div class="film_label"><a href="#">Во все тяжкие</a></div>
-                        </div>
+                <div class="margin-8"></div>
+                <!-- описание фильма -->
+                <h2>Описание Облачный атлас</h2>
+                <hr>
+                    <div class="well">«Облачный атлас» подобен зеркальному лабиринту, 
+                        в котором перекликаются, наслаиваясь друг на друга, шесть голосов: 
+                        нотариуса середины девятнадцатого века, возвращающегося в США из 
+                        Австралии; молодого композитора, вынужденного торговать душой и телом 
+                        в Европе между мировыми войнами; журналистки в Калифорнии 1970-х, 
+                        раскрывающей корпоративный заговор; мелкого издателя — нашего современника, 
+                        умудрившегося сорвать банк на бандитской автобиографии «Удар кастетом» и 
+                        бегущего от кредиторов; клона-прислуги из предприятия быстрого питания в 
+                        Корее — стране победившего киберпанка; и гавайского козопаса на закате цивилизации.
                     </div>
-                        <div class="margin-8"></div> <!-- разделитель для margin-top -->
-                            <a href="https://www.kinopoisk.ru/media/article/2621344/"><h3>Как снимали Интерстеллар</h3></a>
-                        <hr>
-                            <p>45 лет исполнилось Кристоферу Нолану — одному из самых успешных режиссеров нашего времени, чьи работы одинаково любимы как взыскательными критиками, так и простыми зрителями. Фильмом изначально занималась студия Paramount. Когда Кристофер Нолан занял место режиссера, студия Warner Bros., которая выпускала его последние фильмы, добилась участия в проекте.</p>
-                            <a href="https://www.kinopoisk.ru/media/article/2621344/" class="btn btn-warning pull-right">Читать</a>
-                        <div class="margin-8"></div> <!-- разделитель для margin-top -->
-                            <a href="https://www.starslife.ru/2014/02/17/ceremoniya-vrucheniya-premii-bafta/"><h3>Актер Том Хенкс поделился впечатлением о фестивале</h3></a>
-                        <hr>
-                            <p>16 февраля в Лондоне состоялась 67-я церемония вручения наград Британской киноакадемии. Леонардо ДиКаприо, Брэд Питт, Анджелина Джоли, Кейт Бланшетт, Хелен Миррен, Эми Адамс, Кристиан Бэйл, Альфонсо Куарон и другие гости и победители премии — в нашем репортаже.</p>
-                            <a href="https://www.starslife.ru/2014/02/17/ceremoniya-vrucheniya-premii-bafta/" class="btn btn-warning pull-right">Читать</a>
-                            <div class="margin-8 clear"></div> <!-- разделитель для margin-top -->
+                    <div class="margin-8"></div>
+                <!-- отзывы о фильме -->
+                <h2>Отзывы об Облачный атлас</h2>
+                <!-- панель отзывов -->
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <i class="glyphicon glyphicon-user"></i><span> Иван</span>
+                    </div>
+                    <div class="panel-body">Фильм на один раз...
+                    </div>
+                </div>
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <i class="glyphicon glyphicon-user"></i><span> Андрей</span>
+                    </div>
+                    <div class="panel-body">Смотрели всей семьей, понравлся.
+                    </div>
+                </div>
+                <!-- форма пользователь и отзыв -->
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Ваше имя" class="form-control input-lg">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control input-lg"></textarea>
+                    </div>
+                    <!-- кнопка -->
+                    <button class="btn btn-lg btn-warning pull-right">Отправить</button>
+                </form>
+                <div class="margin-8"></div>
                 </div>
                 <!-- left main panel  -->
-                <div class="col-lg-3 col-lg-pull-9">
+                <div class="col-lg-3 col-lg-pull-9 hidden-xs">
                     <!-- поиск -->
                     <div class="panel panel-info hidden-xs">
                         <div class="panel-heading"><div class="sidebar-header">Поиск</div></div>
@@ -161,7 +162,7 @@
                         <div class="panel-heading"><div class="sidebar-header">Новости</div></div>
                             <div class="panel-body">
                                 <h4>23.03.2022</h4>
-                                <p>Мы добавили новые сериалы в каталог</p>
+                                <p>Мы запустили новый сервис</p>
                             </div>
                     </div>
                     <!-- рейтинг фильмов -->
@@ -170,16 +171,16 @@
                             <div class="panel-body">
                                 <ul class="list-group">
                                     <li class="list-group-item list-group-item-warning">
-                                        <span class="badge">8.9</span><a href="./assets/films-html/interstellar.html">Интерстеллар</a>
+                                        <span class="badge">8.9</span><a href="./interstellar.html">Интерстеллар</a>
                                     </li>
                                     <li class="list-group-item list-group-item-warning">
-                                        <span class="badge">8.7</span><a href="./assets/films-html/max.html">Безумный Макс</a>
+                                        <span class="badge">8.7</span><a href="./max.html">Безумный Макс</a>
                                     </li>
                                     <li class="list-group-item list-group-item-warning">
-                                        <span class="badge">8.3</span><a href="./assets/films-html/matrix.html">Матрица</a>
+                                        <span class="badge">8.3</span><a href="./matrix.html">Матрица</a>
                                     </li>
                                     <li class="list-group-item list-group-item-info">
-                                        <span class="badge">7.9</span><a href="./assets/films-html/cloud.html">Облачный атлас</a> 
+                                        <span class="badge">7.9</span><a href="./cloud.html">Облачный атлас</a> 
                                     </li>
                                     <li class="list-group-item list-group-item-info">
                                         <span class="badge">7.8</span> <a href="#">Секретные материалы</a>
@@ -205,17 +206,11 @@
     <!-- footer container -->
 <footer>
     <div class="container">
-        <p class="text-center"> <a href="./index.html">KinoMonster.com</a> </p>
+        <p class="text-center"> <a href="/index.html">KinoMonster.com</a> </p>
     </div>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="./assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
 </body>
 </html>
-
-
-
-
-
-
