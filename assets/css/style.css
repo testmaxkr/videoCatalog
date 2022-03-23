@@ -41,6 +41,7 @@ body .nav-pills > li > a:hover {
 
 body .navbar-inverse {
   padding: 1%;
+  border-radius: 0;
 }
 
 body .clear {
@@ -106,6 +107,24 @@ body .list-group-item-warning {
 
 body .list-group-item-warning .badge {
   background-color: #000000;
+}
+
+body .info-block {
+  font-size: 120%;
+}
+
+body .info-block .badge {
+  font-size: 80%;
+  color: white;
+  background-color: #000000;
+}
+
+body .info-block span {
+  margin-right: 3%;
+}
+
+body textarea.form-control {
+  height: 200px;
 }
 
 body footer {

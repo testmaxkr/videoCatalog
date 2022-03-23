@@ -38,6 +38,7 @@ body{
 }
 .navbar-inverse {
     padding: 1%;
+    border-radius: 0;
 }
 // main right panel
 .clear{
@@ -96,6 +97,21 @@ body{
 }
 }
 
+.info-block{
+    font-size: 120%;
+& .badge {
+    font-size: 80%;
+    color: white;
+    background-color: #000000;
+}    
+& span {
+    margin-right: 3%;
+}
+}
+
+textarea.form-control{
+    height: 200px;
+}
 // footer
 footer{
     color:#666;
