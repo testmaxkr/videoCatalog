@@ -15,6 +15,10 @@
     .header{
         text-align: center;
     }
+
+    .navbar-toggle{
+        margin: 0px;
+    }
 } 
 
 @media (max-width:478px) {
@@ -38,4 +42,10 @@
     body .header a{
         font-size: 0.5em;
     }
+    
+    .navbar-toggle{
+        margin: 0px;
+    }
+
+
 } 
