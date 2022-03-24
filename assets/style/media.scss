@@ -4,7 +4,7 @@
     }
     
     .nav-pills>li {
-    float: none;
+        float: none;
     }
 
     .header h1 {
@@ -15,11 +15,7 @@
     .header{
         text-align: center;
     }
-
-    .navbar-toggle{
-        margin: 0px;
-    }
-} 
+}    
 
 @media (max-width:478px) {
     .nav-pills{
@@ -27,7 +23,7 @@
     }
     
     .nav-pills>li {
-    float: none;
+        float: none;
     }
 
     .header h1 {
@@ -42,10 +38,4 @@
     body .header a{
         font-size: 0.5em;
     }
-    
-    .navbar-toggle{
-        margin: 0px;
-    }
-
-
 } 
