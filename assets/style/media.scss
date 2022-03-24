@@ -1,0 +1,41 @@
+@media (max-width:767px) {
+    .nav-pills{
+        text-align: center;
+    }
+    
+    .nav-pills>li {
+    float: none;
+    }
+
+    .header h1 {
+        letter-spacing: 5px;
+        font-size: 280%;
+    }
+
+    .header{
+        text-align: center;
+    }
+} 
+
+@media (max-width:478px) {
+    .nav-pills{
+        text-align: center;
+    }
+    
+    .nav-pills>li {
+    float: none;
+    }
+
+    .header h1 {
+        letter-spacing: 5px;
+        font-size: 280%;
+    }
+
+    .header{
+        text-align: center;
+    }
+
+    body .header a{
+        font-size: 0.5em;
+    }
+} 
