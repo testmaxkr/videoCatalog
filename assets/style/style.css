@@ -8,11 +8,6 @@ body {
   height: 100%;
 }
 
-body .row {
-  margin-right: -15px;
-  margin-left: -16px;
-}
-
 body .header a, body .header a:hover {
   color: #f0ad4e;
   text-decoration: none;
@@ -60,6 +55,7 @@ body .wrapper {
 
 body .films_block {
   text-align: center;
+  white-space: nowrap;
 }
 
 body .films_block img {
