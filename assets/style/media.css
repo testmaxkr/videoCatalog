@@ -31,8 +31,8 @@
   body .header a {
     font-size: 0.5em;
   }
-  .films_block {
-    position: relative;
+  h3 {
+    margin-top: 0px;
   }
 }
 /*# sourceMappingURL=media.css.map */
