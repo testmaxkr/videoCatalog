@@ -5,6 +5,11 @@ html, body {
 body{
     box-sizing:border-box;
     height: 100%;
+
+.row{
+    margin-right: -15px;
+    margin-left: -16px;
+}    
 //  header   
 .header{
 
@@ -40,7 +45,6 @@ body{
     padding: 1%;
     border-radius: 0;
 }
-
 
 // main right panel
 .clear{
